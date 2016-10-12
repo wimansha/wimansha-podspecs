@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CraftacasePublic/**/*.{h,m}'
-  s.resources = ['CraftacasePublic/AxisColorScrollBundle.bundle', 'CraftacasePublic/AxisPhotoPickerBundle.bundle', 'CraftacasePublic/AxisTextBundle.bundle', 'CraftacasePublic/CraftACaseBundle.bundle']
+  s.resources = ['CraftacasePublic/AxisColorScrollBundle.bundle', 'CraftacasePublic/AxisPhotoPickerBundle.bundle', 'CraftacasePublic/AxisTextBundle.bundle', 'CraftacasePublic/CraftACasePublicBundle.bundle']
 
   s.public_header_files = 'CraftacasePublic/**/*.h'
 
@@ -41,8 +41,6 @@ s.library = 'xml2'
 s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
   s.vendored_frameworks = 'CraftacasePublic/craftacasepublic.framework'
-
-  s.dependency 'GPUImage', '0.1.7'
 
   s.dependency 'HCSStarRatingView', '~> 1.4.2'
   s.dependency 'AFNetworking', '~>3.1.0'
@@ -55,5 +53,6 @@ s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   s.dependency 'ISO8601DateFormatter', '0.7'
   s.dependency 'objectiveflickr', '2.0.4'
   s.dependency 'FRHyperLabel'
+  s.dependency 'Braintree', '~> 3.9'
 
 end
